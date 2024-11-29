@@ -1,9 +1,29 @@
+/* Style global */
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background-color: #f4f4f9;
-  color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
-h1 {
-  color: #0078d7;
+
+/* En-tête */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
 }
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+header p {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+/* Galerie */
